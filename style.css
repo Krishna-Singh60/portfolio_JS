@@ -697,3 +697,74 @@ font-size: 12px;
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* PORTFOLIO SECTION END*/
+
+/* Services SECTION START*/
+#service{
+    padding: 70px 30px;
+    background-color: #fff;
+}
+
+.service-row{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.service-box{
+    display: flex;
+    gap: 20px;
+}
+.icon i{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 2ps solid var(--themeColor);
+font-size: 22px;
+line-height: 45px;
+background-color: var(--themeColor);
+/* align-items: center; */
+color: var(--bgColor);
+transition: 0.7s;
+text-align: center;
+}
+
+.service-box:hover .icon i{
+transform: scale(1.2) rotate(-360deg);
+color: var(--themeColor);
+background-color: var(--bgColor);
+border: 2px solid var(--themeColor);
+}
+.ser-info h3{
+     color: var(--sideBGcolor);
+     font-size: 20px;
+     font-weight: 600;
+}
+.ser-info h3 + p{
+    color: var(--textColor);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 850px){
+#service{
+        padding: 50px 10px;
+    }
+.service-row{
+ grid-template-columns: repeat(2, 1fr);
+ grid-gap: 20px;
+    }
+.icon i{
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        }
+}
+@media only screen and (max-width: 450px){
+    .service-row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* Services SECTION END*/
