@@ -454,6 +454,17 @@ background-color: var(--themeColor);
 border-radius: 20px;
 }
 
+
+/* @keyframes  move{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+        opacity: 1;
+    }
+} */
+
 /* MOBILE VIEW */
 @media only screen and (max-width: 450px){
     #skills{
@@ -695,10 +706,19 @@ font-size: 12px;
     }
        
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 550px){
     .port-row{
         grid-template-columns: repeat(1, 1fr);
     }
+    .port-info h4 + p{
+        color: var(--bgColor);
+        font-size: 12px;
+}
+.port-info h4{
+    color: var(--bgColor);
+    font-size: 12px;
+    font-weight: 500;
+}
 }
 
 /* PORTFOLIO SECTION END*/

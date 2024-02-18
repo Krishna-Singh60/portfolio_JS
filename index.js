@@ -14,6 +14,13 @@ let typed  = new Typed('.auto-input',{
     loop : true,
 })
 
+// const spans = document.querySelectorAll('.skills-inner-line');
+
+// spans.forEach((span) =>{
+//     span.style.width = span.dataset.width;
+//     span.innerHTML = span.dataset.width;
+// })
+
 let navLinks = document.querySelectorAll('nav ul li a');
 let sections = document.querySelectorAll('section');
 console.log(sections, navLinks);
@@ -25,7 +32,6 @@ window.addEventListener('scroll', function () {
                 link.classList.remove('active');
                 if(e.getAttribute('id') === link.getAttribute('href').substring(1)){
                     link.classList.add('active')
-                    console.log(sections.link);
                 }
             })
         }
