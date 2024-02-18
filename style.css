@@ -785,3 +785,11 @@ border: 2px solid var(--themeColor);
     
 }
 /* Services SECTION END*/
+
+/* Contact SECTION Start*/
+
+#contact{
+    padding: 70px 30px;
+}
+
+/* Contact SECTION End*/
