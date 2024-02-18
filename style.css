@@ -167,7 +167,7 @@ left: 0;
 #home{
     height: 100vh;
     width: 100%;
-    background-image: url(./img/bg4.jpg);
+    background-image: url(/bg4.jpg);
     background-size:cover;
     background-attachment: fixed;
     display: flex;
@@ -757,23 +757,31 @@ border: 2px solid var(--themeColor);
  grid-gap: 20px;
     }
 .icon i{
-    width: 25px;
-    height: 25px;
-    font-size: 12px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
     border-radius: 50%;
-    font-size: 12px;
-    line-height: 25px;
     text-align: center;
-
-        }
-.service-box:hover .icon i{
-    transform: scale(1.1) rotate(-360deg);
+}
+    .service-box:hover .icon i{
+            transform: scale(1.1) rotate(-360deg);
             }
 }
 @media only screen and (max-width: 450px){
     .service-row{
         grid-template-columns: repeat(1, 1fr);
     }
+     .icon i{
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+        border-radius: 50%;
+        text-align: center;
+    
+    } 
+    .service-box:hover .icon i{
+        transform: scale(1.1) rotate(-360deg);
+        }
     
 }
 /* Services SECTION END*/
