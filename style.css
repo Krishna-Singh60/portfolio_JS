@@ -167,7 +167,7 @@ left: 0;
 #home{
     height: 100vh;
     width: 100%;
-    background-image: url(/img/bg4.jpg);
+    background-image: url(/img/background.jpg);
     background-size:cover;
     background-attachment: fixed;
     display: flex;
@@ -841,5 +841,23 @@ border-radius: 10px;
 border: 1px solid #353535;
 
 } */
+/* Mobile View */
+
+@media only screen and (max-width: 800px){
+    #contact{
+        padding: 50px 10px;
+    }
+    .contact-row{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    #contact{
+        padding: 50px 10px;
+    }
+    
+}
 
 /* Contact SECTION End*/
