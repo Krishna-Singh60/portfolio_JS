@@ -240,6 +240,7 @@ left: 0;
 /* ABOUT SECTION START*/
 #about {
     padding: 70px 30px;
+    background-color: #fff;
 }
 .sub-heading{
     color: #000;
@@ -281,7 +282,7 @@ margin-top: 15px;
     width: 100%;
 }
 .about-col .info-col{
-flex-basis: 70%;
+flex-basis: 60%;
 }
 .about-col .info-col h2{
     color: var(--themeColor);
@@ -298,8 +299,8 @@ flex-basis: 70%;
 }
 .icon-list-col{
     display: flex;
-    margin-top: 20px;
-    gap: 40px;
+    margin-top: 5px;
+    gap: 20px;
 }
 .icon-list-col .icon-list ul li{
     list-style: none;
@@ -627,6 +628,7 @@ padding-bottom: 15px;
 
 #portfolio{
     padding: 70px 30px;
+    /* background-color: #fff; */
 }
 .port-row{
     margin-top: 50px;
@@ -801,6 +803,7 @@ border: 2px solid var(--themeColor);
 
 #contact{
     padding: 70px 30px;
+    background-color: #fff;
 }
 
 .contact-row{
